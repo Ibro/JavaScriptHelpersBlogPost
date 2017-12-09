@@ -1,0 +1,30 @@
+{
+  "name": "JavaScriptHelpersBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibro/JavaScriptHelpersBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibro/JavaScriptHelpersBlog/issues"
+  },
+  "homepage": "https://github.com/Ibro/JavaScriptHelpersBlog#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "eslint": "^4.9.0"
+  }
+}
